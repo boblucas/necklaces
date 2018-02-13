@@ -464,7 +464,7 @@ necklaces()
 ```
 
 And that will work! For performance characteristics I can only say that the operations per handled period is O(1). And I strongly suspect that the amount of active periods does not grow as N or K grows. Which makes the algorithm O(1) amortized. I have no proof unfortunately, only a pretty graphs of runtime with respect to N & K:
-graph.png
+![](/graph.png "")
 
 This is from a C implementation, it was ran once on a 2.4GHZ Nehalem C architecture CPU.
 
